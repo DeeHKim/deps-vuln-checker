@@ -1,0 +1,39 @@
+{
+  "summary": {
+    "totalDependencies": 180,
+    "vulnerablePackages": 1,
+    "percentageVulnerable": 0.56,
+    "vulnerabilitiesFound": 1,
+    "bySeverity": {
+      "critical": 0,
+      "high": 0,
+      "moderate": 1,
+      "low": 0,
+      "unknown": 0
+    }
+  },
+  "vulnerabilities": [
+    {
+      "package": "esbuild",
+      "version": "0.21.5",
+      "severity": "MODERATE",
+      "description": "esbuild enables any website to send any requests to the development server and read the response",
+      "cveIds": [],
+      "advisoryLinks": [
+        "https://github.com/advisories/GHSA-67mh-4wv8-2f99"
+      ],
+      "fixedVersions": [
+        "0.25.0"
+      ],
+      "suggestedUpgrade": "0.25.0",
+      "source": "NPM_REGISTRY"
+    }
+  ],
+  "scannedFiles": [
+    {
+      "file": "package-lock.json",
+      "type": "package-lock.json",
+      "dependencyCount": 180
+    }
+  ]
+}

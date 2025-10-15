@@ -1,0 +1,2 @@
+export { VulnerabilityChecker } from './vulnerabilityChecker';
+

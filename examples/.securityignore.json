@@ -1,0 +1,11 @@
+{
+  "cveIds": [
+    "CVE-2022-28346",
+    "CVE-2021-23337"
+  ],
+  "severityIgnore": [
+    "LOW",
+    "MODERATE"
+  ]
+}
+
